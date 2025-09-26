@@ -1,0 +1,4 @@
+$section{
+    $title(#level=2){Titre imbriqué dans une section}
+    Le contenu de la section sera ici.
+}

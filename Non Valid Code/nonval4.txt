@@ -1,0 +1,2 @@
+$title(#style="myTitleStyle", #level=1){Titre avec du texte $bold(){gras}}
+

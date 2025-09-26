@@ -1,0 +1,3 @@
+$style(#name="defaultTitleStyle", #font="Helvetica", #fontSize=20, #fontColor="blue")
+
+$title(#style="defaultTitleStyle", #level=1){Titre du document}

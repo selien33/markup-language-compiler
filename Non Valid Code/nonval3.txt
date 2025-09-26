@@ -1,0 +1,3 @@
+$pageNumber(#pageNumberPosition="bottom-right", #pageNumberFont="Arial", #pageNumberFontSize=12, #pageNumberFontColor="black", #pageNumberStart=1)
+
+$pageNumber(#pageNumberPosition="top-left", #pageNumberFont="Times", #pageNumberFontSize=14, #pageNumberFontColor="blue", #pageNumberStart=2)

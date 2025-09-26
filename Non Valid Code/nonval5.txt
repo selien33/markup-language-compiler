@@ -1,0 +1,2 @@
+$section(#style="nonExistentStyle"){Ce texte aura un style inexistant}
+

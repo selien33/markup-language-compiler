@@ -1,0 +1,29 @@
+digraph {
+	1 [label="TITLE: My Document"]
+	2 [label=document]
+	2 -> 1
+	3 [label="SECTION: Introduction"]
+	4 [label=document]
+	4 -> 2
+	4 -> 3
+	5 [label="TEXT: This is a "]
+	6 [label=document]
+	6 -> 4
+	6 -> 5
+	7 [label="BOLD: bold"]
+	8 [label=document]
+	8 -> 6
+	8 -> 7
+	9 [label="TEXT: and "]
+	10 [label=document]
+	10 -> 8
+	10 -> 9
+	11 [label="ITALIC: italic"]
+	12 [label=document]
+	12 -> 10
+	12 -> 11
+	13 [label="TEXT: example."]
+	14 [label=document]
+	14 -> 12
+	14 -> 13
+}

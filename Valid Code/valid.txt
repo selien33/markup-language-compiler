@@ -1,0 +1,33 @@
+$style(#name="mainStyle",#font="Arial",#fontSize=12)
+$style(#name="sectionStyle",#font="Arial",#fontSize=12)
+$style(#name="titleStyle",#font="Arial",#fontSize=12)
+
+$pageNumber(#pageNumberPosition="bottom-left",#pageNumberFont="Times New Roman",#pageNumberFontSize=10, #pageNumberStart=2)
+$numberizeTitle(#numberizeTitleStart=1)
+
+$title(#level=1) {
+    Title content of the document is here.
+}
+
+$section(#style="sectionStyle") {
+    This is section 1. 
+    
+    $bold() {Bold text in section 1.}
+    
+    $italic() {Italic text in section 1.}
+    
+    $underlined() {Underlined text in section 1.}
+    
+    Some normal text continuing after the styTEXTles.
+}
+
+$section(#style="sectionStyle") {
+    A second section starts here. 
+    
+    $bold() {Bold text in section 2.}
+    
+    $italic() {Italicized content here in section 2.}
+    
+    And some regular text to finish it.
+}
+
